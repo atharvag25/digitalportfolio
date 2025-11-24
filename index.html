@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Atharva</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Atharva</span><br> Web Developer</h1>
+
+                    <a href="#" class="button">Download CV</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/atharva-gavali-226a2b397/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:atharvagavali0725@gmail.com" class="home__social-icon"><i class='bx bx-envelope' ></i></a>
+                    <a href="https://github.com/atharvag25" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Atharva</h2>
+                        <p class="about__text">
+                        Hi, I’m Atharva — a tech enthusiast passionate about building 
+                        smart solutions using Machine Learning, Cloud Computing, Web Development, 
+                        and Embedded Systems. I enjoy working on real-world projects, 
+                        from designing ML models and MERN applications. I’m constantly learning, improving, 
+                        and exploring new technologies to build better, more impactful digital experiences.
+                    </p>           
+                    </div>                                   
+                </div>
+            </section>
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle"> My Skills</h2>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                              <i class='bx bx-code-alt skills__icon'></i>
+                                <span class="skills__name">CPP</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                              <i class='bx bx-server skills__icon'></i>
+                                <span class="skills__name">Node.JS</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">55%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                              <i class='bx bx-loader-circle skills__icon'></i>
+                                <span class="skills__name">React</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!--===== PROJECTS =====-->
+<section class="projects section" id="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <!-- NOTE: projects__container matches the CSS below -->
+  <div class="projects__container">
+
+    <!-- Project 1 -->
+    <article class="projects__card">
+      <div class="projects__img">
+        <!-- local image path from your uploaded files -->
+        <img src="image.jpg" alt="AI Mental Health Chatbot screenshot">
+      </div>
+
+      <div class="project__info">
+        <h3 class="project__title">AI-Enhanced Mental Health Chatbot</h3>
+        <p class="project__desc">
+          An intelligent chatbot that combines NLP-driven conversational agents with biometric inputs from IoT wearables.
+          It detects stress indicators (heart rate variability, skin conductance) to adapt responses and suggest timely 
+          interventions. Built for accessibility and privacy-first data handling.
+        </p>
+
+        <div class="project__tags">
+          <span class="project__tag">Python</span>
+          <span class="project__tag">NLP</span>
+          <span class="project__tag">IoT</span>
+          <span class="project__tag">MongoDB</span>
+        </div>
+
+        <div class="project__links">
+          <a href="#" aria-label="GitHub repo"><i class="bx bxl-github"></i></a>
+          <a href="#" aria-label="Live demo"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="projects__card">
+      <div class="projects__img">
+        <!-- another local path from your conversation (or replace with your image) -->
+        <img src="image.jpg" alt="Digital Twin Agriculture screenshot">
+      </div>
+
+      <div class="project__info">
+        <h3 class="project__title">Smart Agriculture with Digital Twin</h3>
+        <p class="project__desc">
+          A digital twin platform that models farm microclimates and crop growth using sensor data and simulation.
+          It enables predictive irrigation and fertilizer planning to increase yield and reduce resource use.
+          Designed for easy cloud deployment and integration with edge sensors.
+        </p>
+
+        <div class="project__tags">
+          <span class="project__tag">Node.js</span>
+          <span class="project__tag">React</span>
+          <span class="project__tag">MongoDB</span>
+          <span class="project__tag">IoT</span>
+        </div>
+
+        <div class="project__links">
+          <a href="#" aria-label="GitHub repo"><i class="bx bxl-github"></i></a>
+          <a href="#" aria-label="Prototype"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+<article class="projects__card">
+  <div class="projects__img">
+    <!-- Replace with your own screenshot if you want -->
+    <img src="image.jpg" alt="Personal Portfolio Screenshot">
+  </div>
+
+  <div class="project__info">
+    <h3 class="project__title">Personal Digital Portfolio Website</h3>
+
+    <p class="project__desc">
+      A responsive and modern personal portfolio website showcasing my skills, projects, and contact information.  
+      Built with clean UI components and smooth navigation to create a professional online presence.
+    </p>
+
+    <div class="project__tags">
+      <span class="project__tag">HTML</span>
+      <span class="project__tag">CSS</span>
+      <span class="project__tag">JavaScript</span>
+      <span class="project__tag">UI/UX</span>
+    </div>
+
+    <div class="project__links">
+      <a href="#" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+      <a href="#" aria-label="Live Demo"><i class="bx bx-link-external"></i></a>
+    </div>
+  </div>
+</article>
+
+
+  </div>
+</section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="https://formspree.io/f/myzakzlq" method="POST" class="contact__form">
+                        <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                        <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                        <textarea name="message" placeholder="Your Message" rows="10" class="contact__input" required></textarea>
+                        <input type="submit" value="Send" class="contact__button button">
+                    </form>
+
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Atharva</p>
+        </footer>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
+</html>
